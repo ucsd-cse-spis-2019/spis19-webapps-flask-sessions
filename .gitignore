@@ -1,7 +1,13 @@
+env.sh
+
+*~
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+
 *$py.class
+
 
 # C extensions
 *.so
@@ -43,7 +49,10 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
+<<<<<<< HEAD
 .hypothesis/
+=======
+>>>>>>> 86dba1e415e3728803e152918de4ca830efcfd84
 
 # Translations
 *.mo
@@ -51,6 +60,7 @@ coverage.xml
 
 # Django stuff:
 *.log
+<<<<<<< HEAD
 local_settings.py
 
 # Flask stuff:
@@ -59,12 +69,15 @@ instance/
 
 # Scrapy stuff:
 .scrapy
+=======
+>>>>>>> 86dba1e415e3728803e152918de4ca830efcfd84
 
 # Sphinx documentation
 docs/_build/
 
 # PyBuilder
 target/
+<<<<<<< HEAD
 
 # IPython Notebook
 .ipynb_checkpoints
@@ -87,3 +100,4 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
